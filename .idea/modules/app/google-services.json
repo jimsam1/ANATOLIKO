@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "345954334287",
+    "firebase_url": "https://anatoliko-5c7cc.firebaseio.com",
+    "project_id": "anatoliko-5c7cc",
+    "storage_bucket": "anatoliko-5c7cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345954334287:android:0193611087cf748d8e9c3a",
+        "android_client_info": {
+          "package_name": "com.example.anatoliko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345954334287-nrjodi1hlg9itgbkhk7b7ru1807lb30f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anatoliko",
+            "certificate_hash": "88edce51f50cb90f918f7703afb6e6a4b83baf93"
+          }
+        },
+        {
+          "client_id": "345954334287-bh4rrbonk59e8tucruq8qpu9uidgeugg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUAGe12-ydoAitsFaODqhE7Jdj0l-YNDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345954334287-bh4rrbonk59e8tucruq8qpu9uidgeugg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

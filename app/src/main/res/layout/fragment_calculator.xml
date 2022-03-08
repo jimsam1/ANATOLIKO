@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.CalculatorFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/Esoteriko_cons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="35dp"
+                android:text="20"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                app:layout_constraintStart_toEndOf="@+id/textView1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="100"
+                app:layout_constraintStart_toEndOf="@+id/switch1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mathima1"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="85dp"
+                android:gravity="center"
+                android:text="ΑΡΧΑΙΑ"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/Bathmos1"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Bathmos1"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="85dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal|numberSigned"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mathima2"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="ΙΣΤΟΡΙΑ Κ."
+                android:textColor="#000000"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/Bathmos2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/mathima1" />
+
+            <EditText
+                android:id="@+id/Bathmos2"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal|numberSigned"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/Bathmos1" />
+
+            <TextView
+                android:id="@+id/mathima3"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="ΚΟΙΝΩΝΙΟΛΟΓΙΑ"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/Bathmos3"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/mathima2" />
+
+            <EditText
+                android:id="@+id/Bathmos3"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal|numberSigned"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/Bathmos2" />
+
+            <TextView
+                android:id="@+id/mathima4"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="ΕΚΘΕΣΗ"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/Bathmos4"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/mathima3" />
+
+            <EditText
+                android:id="@+id/Bathmos4"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal|numberSigned"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/Bathmos3" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="40dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="40dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintGuide_begin="329dp"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/rdg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="@+id/guideline3">
+
+                <RadioButton
+                    android:id="@+id/RB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="ΘΕΩΡΗΤΙΚΗ" />
+
+                <RadioButton
+                    android:id="@+id/RB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΘΕΤΙΚΗ" />
+
+                <RadioButton
+                    android:id="@+id/RB3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΥΓΕΙΑΣ" />
+
+                <RadioButton
+                    android:id="@+id/RB4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΟΙΚΟΝΟΜΙΚΗ" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="200dp"
+                android:text="ΥΠΟΛΟΓΙΣΜΟΣ"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="448dp" />
+
+            <TextView
+                android:id="@+id/apotelesma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                app:layout_constraintBottom_toTopOf="@+id/guideline4"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toEndOf="@+id/rdg"
+                app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn"
+                android:layout_marginTop="150dp"
+                android:text=""/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
